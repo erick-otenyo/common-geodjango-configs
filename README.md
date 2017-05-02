@@ -4,7 +4,7 @@ A simple writeup of my common settings/configurations in jump-starting and deplo
 The procedures assume a linux OS, in my case Ubuntu 16.10. This should work fine with Ubuntu >=16.04.
 
 ## Install Python, Pip
- $ sudo apt-get install python-setuptools python-pip
+    $ sudo apt-get install python-setuptools python-pip
 
 ## Create and setup virtualenv and virtualenvwrapper
   ### Install virtualenv using the pip installer:
