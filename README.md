@@ -16,7 +16,7 @@ The procedures assume a linux OS, in my case Ubuntu 16.10. This should work fine
      $ mkdir $WORKON_HOME
  ### Run the source command to execute the virtualenvrapper.sh bash file:
      $ source /usr/local/bin/virtualenvwrapper.sh
- ### Next, we create a new virtual environment called pygeoan_cb , and this is also the name of the new folder where the virtual environment is installed:
+ ### Next, we create a new virtual environment called env , and this is also the name of the new folder where the virtual environment is installed:
      $ mkvirtualenv env
    To use virtualenvwrapper the next time you start up your machine, we need to
 set it up so that your bash terminal runs the virtualenvwrapper.sh script when
