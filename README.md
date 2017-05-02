@@ -28,7 +28,6 @@ your computer starts
      $ echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
  ### Now we can execute our bash:
      $ source ~/.bashrc
-## Install Django
 
 ## Install PostgresQL, Postgis, pgadmin3
     $ sudo apt-get update
@@ -47,3 +46,7 @@ your computer starts
     $ sudo su postgres
     $ psql
     ALTER USER Postgres WITH PASSWORD '';
+    
+## Install Django
+    $ workon env
+    $ pip install django
