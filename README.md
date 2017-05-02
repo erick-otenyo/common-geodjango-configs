@@ -6,7 +6,7 @@ The procedures assume a linux OS, in my case Ubuntu 16.10. This should work fine
 ## Install Python, Pip
  $ sudo apt-get install python-setuptools python-pip
 
-## Create and setup vitrtualenv and virtualenvwrapper
+## Create and setup virtualenv and virtualenvwrapper
   ### Install virtualenv using the pip installer:
     $ pip install virtualenv
  
@@ -14,19 +14,19 @@ The procedures assume a linux OS, in my case Ubuntu 16.10. This should work fine
 ## Install Django
 
 ## Install PostgresQL, Postgis, pgadmin3
- $ sudo apt-get update
- $ sudo apt-get install -y postgresql postgresql-contrib
+  $ sudo apt-get update
+  $ sudo apt-get install -y postgresql postgresql-contrib
 
 ## Install postgis
-  $ sudo apt-get install -y postgis postgresql-9.5-postgis-2.2
+   $ sudo apt-get install -y postgis postgresql-9.5-postgis-2.2
 
 ## Install pgadmin3
- $ sudo apt-get install pgadmin3
+  $ sudo apt-get install pgadmin3
 
 ## Install Geospatial Libraries
- $ sudo apt-get install binutils libproj-dev gdal-bin
+  $ sudo apt-get install binutils libproj-dev gdal-bin
 
 ## Change postgresql default password
- $ sudo su postgres
- $ psql
- ALTER USER Postgres WITH PASSWORD '';
+  $ sudo su postgres
+  $ psql
+  ALTER USER Postgres WITH PASSWORD '';
