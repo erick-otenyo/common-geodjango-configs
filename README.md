@@ -5,7 +5,7 @@ The procedures assume a linux OS, in my case Ubuntu 16.10. This should work fine
 
 ## Install Python, Pip
 
-## Create and setup vitrtualenv and virtuallenvwrapper
+## Create and setup vitrtualenv and virtualenvwrapper
 
 ## Install Django
 
