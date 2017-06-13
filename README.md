@@ -35,6 +35,7 @@ your computer starts
 
 ## Install PostgresQL, Postgis, pgadmin3
     $ sudo apt-get update
+## We are done with the basic settings.. now we get doen to configuring fo Geodjango...coming soon
     $ sudo apt-get install -y postgresql postgresql-contrib
 
 ## Install postgis
