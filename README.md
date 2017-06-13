@@ -54,4 +54,4 @@ your computer starts
 ## Install Django
     $ workon env
     $ pip install django
-## We are done with the basic settings.. now we get down to configuring fo Geodjango...coming soon
+## We are done with the basic settings.. now we get down to configuring for Geodjango specific...coming soon
